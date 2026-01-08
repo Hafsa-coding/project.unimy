@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="Register">
+
+<div class="register-container">
+    <form class="register-form" onsubmit="return validateForm()">
+        <h2>Create Account</h2>
+        <p align="center">Join us today!</p><br>
+
+        <div class="input-row">
+            <div class="input-group">
+                <p>First Name</p>
+                <input type="text" id="fname" placeholder="Zack">
+                <div class="error" id="fnameError"></div>
+            </div>
+
+            <div class="input-group">
+                <p>Last Name</p>
+                <input type="text" id="lname" placeholder="Carlos">
+                <div class="error" id="lnameError"></div>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <p>Email Address</p>
+            <input type="email" id="email" placeholder="name@example.com">
+            <div class="error" id="emailError"></div>
+        </div>
+
+        <div class="input-group">
+            <p>Password</p>
+            <input type="password" id="password" placeholder="At least 8 characters">
+            <div class="error" id="passwordError"></div>
+        </div>
+
+        <div class="input-group">
+            <p>Confirm Password</p>
+            <input type="password" id="confirmPassword" placeholder="Repeat password">
+            <div class="error" id="confirmError"></div>
+        </div>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="terms">I agree to the <a href="Terms and Conditions.html">Terms & Conditions</a>
+            <div class="error" id="termsError"></div>
+        </div>
+
+        <button type="submit" onclick="location.href='#'">Register</button>
+
+        <div class="form-footer">
+            Already have an account? <a href="login.html">Login here</a>
+        </div>
+    </form>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

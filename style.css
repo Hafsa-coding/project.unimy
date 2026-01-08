@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Start of login page styles */
+.login-body {
+    background-image: url(/Images/Background.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(44, 5, 51, 0.2);
+    border: 2px solid rgb(185, 185, 185);
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.login-form p {
+    text-align: center;
+    color: #000000;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.input-group {
+    margin-bottom: 1.2rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #c3bbbb;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #000000;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #8198ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.login-btn a {
+    text-decoration: none;
+}
+.login-btn:hover {
+    background-color: #5a67d8;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.form-footer a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+/* End of login page styles */
+
+ /* Register */
+        .Register {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .register-container {
+            background-color: #f5f5f5;
+            border: 2px solid #000;
+            padding: 20px;
+            width: 100%;
+            max-width: 420px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .register-form p {
+            margin: 8px 0 4px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .input-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .input-group {
+            flex: 1;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .error {
+            color: red;
+            font-size: 12px;
+            margin-top: 4px;
+        }
+
+        .checkbox-group {
+            margin: 10px 0;
+            font-size: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        .form-footer {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #000000;
+
+        }
+
+        /* All-C */
+
+        .All-C-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        h2 {
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        .update-date {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 30px;
+        }
+    /*  Forget Password */
+
+.forgot-container {
+    margin: 200px;
+    background: #80b8ed;
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+
+.forgot-container input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.forgot-container a {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.forgot-container a:hover {
+    text-decoration: underline;
+}
+
+/* Forget Password end */
+
+/* Order Form */
+
+
+.order-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    font-family: Arial, sans-serif;
+}
+
+.order-container {
+    background: #ffffff;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.order-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.order-container p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.order-container input,
+.order-container select,
+.order-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.order-container textarea {
+    resize: none;
+    height: 80px;
+}
+
+.order-container input:focus,
+.order-container select:focus,
+.order-container textarea:focus {
+    outline: none;
+    border-color: #43cea2;
+}
+
+.order-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #43cea2;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.order-container button:hover {
+    background: #36b18b;
+}
+/* Order Form ends */

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <header style=" background: rgba(231, 225, 225, 0.918); text-align: center; padding: 15px;">
+        <center>
+            <font face="vendors" size="4">
+                <a href="index.html">Home</a>&nbsp;&nbsp;|&nbsp;
+                <a href="Search page.html">Search</a>&nbsp;&nbsp;|&nbsp;
+                <a href="Gallery.html">Gallery</a>&nbsp;&nbsp;|&nbsp;
+                <a href="Products.html">Products</a>&nbsp;&nbsp;|&nbsp;
+                <a href="Order Form.html">Order</a>&nbsp;&nbsp;|&nbsp;
+                <a href="#cart">Cart</a>&nbsp;&nbsp;|&nbsp;
+                <a href="login.html">Login</a>&nbsp;&nbsp;|&nbsp;
+                <a href="Register.html">Sign in</a>&nbsp;&nbsp;|&nbsp;
+                <a href="Intro.html">Intro</a>&nbsp;&nbsp;|&nbsp;
+                <a href="Membership Plan.html">Membership Plans</a>
+            </font>
+        </center>
+    </header>
+        <hr size="6" color="#222">
+    <br><br><br>
+    <center>
+        <div class="order-container">
+            <h2>Place Your Order</h2>
+            <p>Please fill in the details below</p>
+
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" placeholder="Delivery Address" required>
+
+                <select required>
+                    <option value="">Select Product</option>
+                    <option>Bag</option>
+                    <option>Laptop</option>
+                    <option>Marker</option>
+                    <option>Mini Bag</option>
+                    <option>Glass</option>
+                </select>
+
+                <input type="number" placeholder="Quantity" min="1" required>
+
+                <select required>
+                    <option>Payment Method</option>
+                    <option>Cash on Delivery</option>
+                    <option>Online Banking</option>
+                    <option>Credit / Debit Card</option>
+                </select>
+
+                <textarea placeholder="Additional Notes (Optional)"></textarea>
+
+                <button type="submit">Confirm Order</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
